@@ -1,0 +1,20 @@
+{
+  "name": "extas/terms",
+  "installer": "v3",
+  "repositories": [
+    {
+      "name": "terms",
+      "scope": "extas",
+      "pk": "name",
+      "class": "extas\\components\\terms\\Term",
+      "aliases": ["terms"]
+    }
+  ],
+  "plugins_install": [
+    {
+      "repository": "terms",
+      "name": "term",
+      "section": "terms"
+    }
+  ]
+}
