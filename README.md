@@ -6,7 +6,6 @@
 [![Total Downloads](https://poser.pugx.org/jeyroik/extas-terms/downloads)](//packagist.org/packages/jeyroik/extas-q-crawlers)
 [![Dependents](https://poser.pugx.org/jeyroik/extas-terms/dependents)](//packagist.org/packages/jeyroik/extas-q-crawlers)
 
-
 # Описание
 
 Пакет предоставляет модель для работы с термами (слагаемыми).

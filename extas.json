@@ -8,6 +8,13 @@
       "pk": "name",
       "class": "extas\\components\\terms\\Term",
       "aliases": ["terms"]
+    },
+    {
+      "name": "terms_calculators_descriptions",
+      "scope": "extas",
+      "pk": "name",
+      "class": "extas\\components\\terms\\TermCalculatorDescription",
+      "aliases": ["termsCalculators", "termsCalculatorDescriptions"]
     }
   ],
   "plugins_install": [
@@ -15,6 +22,11 @@
       "repository": "terms",
       "name": "term",
       "section": "terms"
+    },
+    {
+      "repository": "termsCalculators",
+      "name": "term calculator",
+      "section": "terms_calculators"
     }
   ]
 }
