@@ -4,6 +4,7 @@ namespace extas\components\terms;
 use extas\components\Item;
 use extas\components\samples\parameters\THasSampleParameters;
 use extas\components\TDispatcherWrapper;
+use extas\components\THasTags;
 use extas\interfaces\terms\ITermCalculatorDescription;
 
 /**
@@ -16,6 +17,7 @@ class TermCalculatorDescription extends Item implements ITermCalculatorDescripti
 {
     use TDispatcherWrapper;
     use THasSampleParameters;
+    use THasTags;
 
     /**
      * @return string
